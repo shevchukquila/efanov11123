@@ -13,6 +13,7 @@ namespace _12311231
                 totalMass += masses[i];
             }
             Console.WriteLine("Общая масса груза:" + totalMass + "kg");
+            1 3aDaHuE
 
 
             double[] heights = { 174.2, 170.3, 164.2, 179.7, 168.8 };
@@ -23,6 +24,8 @@ namespace _12311231
             }
 
             Console.WriteLine("Средний рост студента");
+            2 3aDaHue
+            
                         int[] arr = new int[14];
             Random rand = new Random();
             for (int i = 0; i < arr.Length; i++)
@@ -50,6 +53,8 @@ namespace _12311231
             Console.WriteLine("Количество отрицательных элементов :" + negativeCount);
             Console.WriteLine("Количество положительных элементов :" + pozitiveCount);
             Console.WriteLine("Количество нулевых элементов:" + zeroCount);
+            
+            3 3aDaHue
             
 
 

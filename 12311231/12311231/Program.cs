@@ -23,6 +23,33 @@ namespace _12311231
             }
 
             Console.WriteLine("Средний рост студента");
+                        int[] arr = new int[14];
+            Random rand = new Random();
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = rand.Next(-10, 11);
+            }
+            int negativeCount = 0;
+            int pozitiveCount = 0;
+            int zeroCount = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] < 0)
+                {
+                    negativeCount++;
+                }
+                else if (arr[i] > 0)
+                {
+                    pozitiveCount++;
+                }
+                else
+                {
+                    zeroCount++;
+                }
+            }
+            Console.WriteLine("Количество отрицательных элементов :" + negativeCount);
+            Console.WriteLine("Количество положительных элементов :" + pozitiveCount);
+            Console.WriteLine("Количество нулевых элементов:" + zeroCount);
             
 
 
